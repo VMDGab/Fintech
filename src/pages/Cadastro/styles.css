@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #202020;
+    padding: 0 60px;
+    height: 100vh;
+    width: 50%;
+
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.TextHeader {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.TextHeader::selection {
+    color: #fff;
+    background-color: #ffd100;
+}
+
+.TitleHeader {
+    color: #ffd100;
+    font-family: 'Montserrat';
+    font-size: 50px;
+}
+
+.TitleHeader::selection {
+    color: #fff;
+    background-color: #ffd100;
+}
+
+br::selection {
+    background-color: #ffd100;
+}
+
+.form {
+    background-color: #fff;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.input {
+    height: 40px;
+    width: 350px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    border: solid #d4d4d4 2px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid #ffd100;
+    box-shadow: 0 0 10px #ffe366;
+}
+
+.formContent {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#loginButton {
+    height: 40px;
+    width: 350px;
+    font-family: 'Montserrat';
+    background-color: #ffd100;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border: solid #ffd100 2px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#loginButton:hover {
+    background-color: #ffd000d1;
+}
+.Option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+    color: #202020;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.SignUpImage {
+    margin-top: -60px;
+    height: 500px;
+    width: 400px;
+}
+
+.logo {
+    height: 250px;
+    width: 300px;
+}
